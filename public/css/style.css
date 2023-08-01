@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.footer {
+    background-color: #db4c3f;
+    color: #fff;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+#navbar {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    background-color: #db4c3f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#navbar li {
+    margin-left: 1em;
+}
+
+#navbar a {
+    margin-left: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form,
+.books-container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.form-control input {
+    padding: 5px;
+}
+
+.books-container div {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* book */
+
+#book-page {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    flex-flow: column wrap;
+}
+
+#book-page .container {
+    padding: 1em;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding: 0.5em;
+}
+
+.actions a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.actions a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2da2ea;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.actions input {
+    color: black;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.actions input:hover {
+    color: #fff;
+    background-color: #ea2d2d;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+}
